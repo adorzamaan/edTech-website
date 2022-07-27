@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+:root {
+    --maincolor: #289BDE;
+    --bgcolor: #FEEAE9;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+button:hover,
+button:focus {
+    outline: none;
+}
+
+/* common css part start here  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sec_title {
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.sec_title h2 {
+    color: #1D1D1D;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.sec_title p {
+    font-size: 15px;
+    color: #787878;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.commonBtn {
+    padding: 8px 19px;
+    background-color: var(--maincolor);
+    color: #fff;
+}
+
+/* common css part end here  */
+
+/* header_part css start here  */
+#header_part {
+    padding: 20px 0px;
+}
+
+#header_part .container {
+    width: 100%;
+}
+
+.main_nav .logo {
+    font-weight: 700;
+}
+
+.main_nav #myNav ul li {
+    margin: 0px 8px;
+}
+
+.main_nav #myNav ul li a {
+    padding: 10px;
+    color: #787878;
+    font-weight: 500;
+}
+
+#myNav .register .book a {
+    margin-top: 10px;
+    font-weight: 700;
+    padding: 8px 28px;
+    color: var(--maincolor);
+    border: 1px solid var(--maincolor);
+    display: inline-block;
+    transition: .9s;
+    cursor: pointer;
+}
+
+#myNav .register .book a:hover {
+    background-color: var(--maincolor);
+    color: #fff;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0px;
+}
+
+/* header_part css end here  */
+
+/* .banner_slide part start here  */
+
+.carousel-item {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.banner_slide h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.banner_slide p {
+    color: #ddd;
+    padding: 12px 0px;
+}
+
+.banner_slide a {
+    padding: 10px 25px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: .9s;
+}
+
+.banner_slide a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+
+/* .banner_slide part end here  */
+
+
+/* our_courses css part start here  */
+
+#our_courses {
+    padding: 60px 0px;
+}
+
+.courses_item .row .card img {
+    width: 100%;
+}
+
+
+.card {
+    padding: 0px;
+    width: 49%;
+    margin-bottom: 15px;
+
+}
+
+.card-body h5 {
+    color: #4A4A4A;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-body p {
+    font-size: 13px;
+    padding: 8px 0px;
+}
+
+.card-body a {
+    color: var(--maincolor);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* our_courses css part end here  */
