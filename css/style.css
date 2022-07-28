@@ -65,6 +65,11 @@ ol {
     color: #fff;
 }
 
+.hover:hover {
+    color: #fff;
+    background-color: #000;
+}
+
 /* common css part end here  */
 
 /* header_part css start here  */
@@ -154,12 +159,6 @@ ol {
     transition: .9s;
 }
 
-.banner_slide a:hover {
-    color: #fff;
-    background-color: #000;
-}
-
-
 /* .banner_slide part end here  */
 
 
@@ -174,7 +173,7 @@ ol {
 }
 
 
-.card {
+.courses_item .card {
     padding: 0px;
     width: 49%;
     margin-bottom: 15px;
@@ -198,7 +197,24 @@ ol {
     font-size: 15px;
 }
 
+.allbtn {
+    margin-top: 30px;
+}
+
+.allbtn a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 40px;
+    display: inline-block;
+    background-color: var(--maincolor);
+    color: #fff;
+    transition: .9s;
+}
+
 /* our_courses css part end here  */
+#elearning_institute {
+    padding: 30px 0px;
+}
 
 #elearning_institute .container {
     background-color: #F4FAFD;
@@ -240,4 +256,103 @@ ol {
 
 .elearning_content ul li p {
     padding: 0px;
+}
+
+.elearning_content .hover {
+    padding: 10px 25px;
+    color: #fff;
+    background-color: var(--maincolor);
+    transition: .9s;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* callToaction css part start here  */
+
+#callToaction {
+    padding: 60px 0px;
+}
+
+#callToaction .container {
+    background-color: var(--maincolor);
+    padding: 70px 0px;
+    border-radius: 5px;
+}
+
+.callItems h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30x;
+    padding-bottom: 20px;
+}
+
+.callItems p {
+    font-size: 15px;
+    color: #ddd;
+    line-height: 25px;
+}
+
+.callbtn a {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #fff;
+    color: var(--maincolor);
+    border: 1px solid var(--maincolor);
+    font-weight: 700;
+    transition: .9s;
+}
+
+.callbtn .modal .card-body .reg_form {
+    font-size: 18px;
+    color: red;
+    font-weight: 700;
+}
+
+/* callToaction css part end here  */
+
+
+/* our_team css part start here  */
+#our_team {
+    padding: 60px 0px;
+}
+
+#our_team .sec_title {
+    text-align: left;
+}
+
+/* our_team css part end here  */
+
+.card img {
+    width: 100%;
+}
+
+.teams {
+    padding: 30px 0px;
+}
+
+.teams .card {
+    border: none;
+}
+
+.teams .card .card-body {
+    transition: .9s;
+}
+
+.teams .card .card-body p {
+    padding: 0px;
+}
+
+.teams .card:hover .card-body h5,
+.teams .card:hover .card-body p {
+    color: #fff;
+}
+
+.teams .card:hover .card-body {
+    background-color: var(--maincolor);
+}
+
+.teams .allbtn a {
+    margin-top: 25px;
+    display: inline-block;
+
 }

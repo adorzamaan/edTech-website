@@ -46,6 +46,26 @@
     .banner_slide p {
         font-size: 13px;
     }
+
+    .elearning_content {
+        padding-top: 20px;
+    }
+
+    #callToaction {
+        padding: 20px 0px;
+    }
+
+    .callitems {
+        text-align: center;
+    }
+
+    .callitems ul {
+        flex-direction: column;
+    }
+
+    .callbtn {
+        margin-top: 18px;
+    }
 }
 
 @media(min-width:768px) and (max-width:991px) {
@@ -64,14 +84,42 @@
         padding: 8px 12px;
     }
 
-    .card {
+    .courses_item .card {
         width: 100%;
     }
+
+    .callItems h3 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .callItems p {
+        font-size: 13px;
+        color: #ddd;
+        line-height: 20px;
+    }
+
+    .callbtn a {
+        font-size: 16px;
+        padding: 8px 25px;
+    }
+
 
 }
 
 @media(max-width:767px) {
-    .card {
+    .courses_item .card {
         width: 100%;
+    }
+
+    .hover {
+        padding: 8px 25px !important;
+    }
+
+}
+
+@media(max-width:991px) {
+    .teams .card {
+        margin-bottom: 18px;
     }
 }
