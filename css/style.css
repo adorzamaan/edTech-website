@@ -313,7 +313,7 @@ ol {
 
 /* our_team css part start here  */
 #our_team {
-    padding: 60px 0px;
+    padding: 60px 0px 40px;
 }
 
 #our_team .sec_title {
@@ -355,4 +355,12 @@ ol {
     margin-top: 25px;
     display: inline-block;
 
+}
+
+#our_partner {
+    padding: 40px 0px;
+}
+
+.our_brnad img {
+    width: 70%;
 }

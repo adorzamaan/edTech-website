@@ -123,3 +123,10 @@
         margin-bottom: 18px;
     }
 }
+
+@media(min-width:0px) and (max-width:991px) {
+    #our_partner {
+        padding: 40px 0px;
+        display: none;
+    }
+}
