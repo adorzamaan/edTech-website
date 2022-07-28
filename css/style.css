@@ -320,8 +320,6 @@ ol {
     text-align: left;
 }
 
-/* our_team css part end here  */
-
 .card img {
     width: 100%;
 }
@@ -357,10 +355,73 @@ ol {
 
 }
 
+/* our_team css part end here  */
+
+/* our_partner css part start here  */
+
 #our_partner {
-    padding: 40px 0px;
+    padding: 40px 0px 70px;
 }
 
 .our_brnad img {
     width: 70%;
+}
+
+/* our_partner css part end here  */
+footer {
+    padding: 80px 0px;
+    background-color: #000;
+    text-align: center;
+}
+
+.footer_content .ftr_menu {
+    text-align: center;
+    margin: 6px 0px;
+}
+
+.footer_content .ftr_menu li {
+    margin: 0px 8px;
+    display: inline-block;
+}
+
+.footer_content .logo {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer_content p {
+    color: #ddd;
+    padding: 8px 0px;
+
+}
+
+.ftr_menu li a {
+    color: #787878;
+    transition: .9s;
+}
+
+.ftr_menu li a:hover {
+    color: var(--maincolor);
+}
+
+.ftr-social ul li {
+    margin: 5px 12px;
+}
+
+.ftr-social ul li a {
+    width: 35px;
+    height: 35px;
+    background-color: #787878;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .9s;
+}
+
+.ftr-social ul li a:hover {
+    color: #fff;
+    background-color: var(--maincolor);
 }

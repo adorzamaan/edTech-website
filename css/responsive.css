@@ -1,4 +1,6 @@
 @media(max-width:767px) {
+    /* header_part responsive css start here  */
+
     #header_part {
         background-color: #5724BB;
         text-align: center;
@@ -32,6 +34,10 @@
         color: #fff;
     }
 
+    /* header_part responsive css end here  */
+
+    /* banner_slide responsive css start here  */
+
     #banner_slide .container {
         max-width: 100%;
         padding: 0px;
@@ -47,13 +53,43 @@
         font-size: 13px;
     }
 
+    /* banner_slide responsive css end here  */
+
+    /* elearning_content responsive css start here  */
+
     .elearning_content {
         padding-top: 20px;
     }
 
+    .courses_item .card {
+        width: 100%;
+    }
+
+    .hover {
+        padding: 8px 25px !important;
+    }
+
+    /* elearning_content responsive css end here  */
+
     #callToaction {
         padding: 20px 0px;
     }
+
+    /* our_team responsive css end here  */
+
+    #our_team {
+        padding: 30px 0px 10px;
+    }
+
+    #our_team .sec_title {
+        text-align: center;
+    }
+
+    .teams .allbtn a {
+        margin-top: 15px;
+    }
+
+    /* our_team responsive css end here  */
 
     .callitems {
         text-align: center;
@@ -66,23 +102,50 @@
     .callbtn {
         margin-top: 18px;
     }
+
+    #frequently_accordian {
+        padding-bottom: 20px;
+    }
+
+    /* footer responsive css start  here  */
+
+    footer {
+        padding: 45px 0px 25px;
+    }
+
+    .footer_content .ftr_menu li {
+        margin: 0px 4px;
+    }
+
+    /* footer responsive css end  here  */
+
+
+
 }
 
 @media(min-width:768px) and (max-width:991px) {
+    /* header_part responsive css start here  */
+
+    .logo {
+        font-size: 15px;
+    }
+
     .main_nav #myNav ul li {
         margin: 0px 4px;
     }
 
     .main_nav #myNav ul li a {
-        font-size: 14px;
+        font-size: 10px;
         padding: 4px;
         color: #000;
     }
 
     #myNav ul .book a {
         margin-top: 10px;
-        padding: 8px 12px;
+        padding: 5px 10px;
     }
+
+    /* header_part responsive css end here  */
 
     .courses_item .card {
         width: 100%;
@@ -104,17 +167,6 @@
         padding: 8px 25px;
     }
 
-
-}
-
-@media(max-width:767px) {
-    .courses_item .card {
-        width: 100%;
-    }
-
-    .hover {
-        padding: 8px 25px !important;
-    }
 
 }
 
